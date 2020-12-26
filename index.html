@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+    rel="stylesheet" href="./css/styles.css" 
+    />
+    <title>Tip Counter</title>
+
+  </head>
+  <body>
+    <div class="container">
+
+    <h1 class="lable">Bill</h1>
+    <div>
+      <input
+      class="input"
+        type="number"
+        id="bill"
+        value=""
+        placeholder="Write your total bill"
+        required
+      />
+    </div>
+
+    <h1 class="lable">Tip</h1>
+    <div >
+      <input
+      class="input"
+        type="number"
+        id="tip"
+        placeholder="write Tip"
+        value=""
+        required
+      />
+    </div>
+
+    <h1 class="lable">Number of people</h1>
+    <div >
+      <input
+      class="input"
+        type="number"
+        id="persons"
+        placeholder="How many people"
+        value=""
+        required
+      />
+    </div>
+
+  </div>
+  <br>
+  <br>
+
+    <button type="submit" id="btn">CALCULATE</button>
+    <p id="calculate"> (..) </p>
+
+    <script src="./js/tipcounter.js"></script>
+
+  </body>
+</html>

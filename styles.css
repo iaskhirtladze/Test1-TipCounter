@@ -1,0 +1,33 @@
+.content {
+    width: 1200px;
+    margin: auto;
+    height: 200px;
+    align-items: center;
+ 
+}
+
+.input{
+    width: 500px;
+    height: 40px;
+    font-size: 24px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.lable{
+    font-size: 24px;
+    font-weight: bolder;
+    color: blue;
+}
+
+#calculate{
+    font-size: 20px;
+    font-weight: bolder;
+    color:green;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+}
+
+
+
